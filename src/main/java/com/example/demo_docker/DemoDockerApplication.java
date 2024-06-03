@@ -21,4 +21,9 @@ public class DemoDockerApplication {
 	public String say() {
 		return "Hello World speaks";
 	}
+
+	@GetMapping("/hello")
+	public String hello2() {
+		return "Hello World speaks from Spring Boot";
+	}
 }
